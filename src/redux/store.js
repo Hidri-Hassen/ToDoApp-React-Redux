@@ -1,13 +1,8 @@
-import {createStore, combineReducers} from 'redux'
-import listReducer from './listReducer.js'
-import inputReducer from './inputReducer.js'
-const store = createStore(combineReducers({
-// reducers
-input: inputReducer ,
-list: listReducer
+import {createStore} from 'redux'
+import reducer from './reducer.js'
 
-})
-
-
-)
+const store = createStore(
+    reducer,
+    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+    );
 export default store

@@ -88,3 +88,51 @@ margin: 0px 5px;
 font-size: 15px;
 cursor: pointer;
 }
+
+.add-modal {
+  outline: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 15%;
+  height: 300px;
+   top: 10%;
+  bottom: 10%; 
+  background-color:  rgba(27, 112, 137, 1);
+  border-radius: 5px;
+  color: ghostwhite;
+  
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 1em 1em;
+  width: 200px;
+    height: 50px;
+   border: 0;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.title{
+  margin: 1em 1em;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+
+.btn {
+  cursor: pointer;
+  padding: 0.5em;
+  border-radius: 3px;
+  border: 1px solid black;
+  background: rgba(202, 156, 24, 1); 
+  margin: 1em 1em;
+  
+}
